@@ -36,7 +36,6 @@ body{
 .container {
     margin: 0 auto;
     max-width: 1575px;
-    border:1px;
 }
 
 
@@ -69,7 +68,7 @@ h1, h2 {
    line-height: normal;
 }
 
-p, h3, .navbar, .title__description, .details__date, .details__theme, .school_text, .footer_text, .title__head, .main_description-text {
+p, h3, .header, .title__description, .details__date, .details__theme, .school_text, .footer_text, .title__head, .main_description-text {
    font-family: var(--main-font-family);
    font-style: normal;
    font-weight: 400;
@@ -85,7 +84,7 @@ p, h3, .navbar, .title__description, .details__date, .details__theme, .school_te
 
 /*--------------------------- Header ------------------------*/
 
-.navbar {
+.header {
     padding: 50px 0 0;
     font-size: 16px;
     opacity: .8;
@@ -95,8 +94,7 @@ p, h3, .navbar, .title__description, .details__date, .details__theme, .school_te
 .nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 107px;
+    justify-content: space-between;
 }
 
 .nav a {
@@ -108,20 +106,20 @@ p, h3, .navbar, .title__description, .details__date, .details__theme, .school_te
 /*--------------------------- Main ------------------------*/
 
 .main {
-    position: relative;
     margin-top: 140px;
-    z-index: 10;
 }
 
 .main_wrapper {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .main_description-header {
-    width: 981px;
-    height: 439px;
+    /*width: 981px;*/
+    width: 815px;
+    margin-bottom: 60px;
+    /*height: 439px;*/
 }
 
 .main_description-header h1 {
@@ -221,7 +219,6 @@ p, h3, .navbar, .title__description, .details__date, .details__theme, .school_te
 .directions_items {
     display: flex;
     justify-content: space-between;
-    gap: 176px;
 }
 
 .directions_item {
@@ -395,7 +392,6 @@ p, h3, .navbar, .title__description, .details__date, .details__theme, .school_te
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 1570px;
     height: 142px;
     padding: 23px 32px 23px 38px;
     box-sizing: border-box;
@@ -541,6 +537,95 @@ p, h3, .navbar, .title__description, .details__date, .details__theme, .school_te
     display: flex;
     column-gap: 58px;
     align-items: center;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
 }
 
+
+
+
+
+/*@media (min-width: 768px) and (max-width: 991px) {
+   
+}
+*/
+
+
+@media (max-width: 1650px) {
+ 
+
+    .container {
+        max-width: 1300px;
+    }
+
+    .main_animation img {
+        width: 470px;
+        height: 528px;
+    }
+
+}
+
+
+
+
+@media (max-width: 1440px) {
+
+    body {
+    background-image: url(../img/bg_1440.svg);
+    }   
+
+     .container {
+        max-width: 1000px;
+    }
+
+    .header {
+        padding: 30px 0 0 0;
+        font-size: 14px;
+    }
+
+    .main {
+        margin-top: 90px;
+    }
+
+    .main_description-header {
+        width: 553px;
+        margin-bottom: 30px;
+    }
+
+    .main_description-header h1 {
+        font-size: 55px;
+        line-height: 60px;
+        letter-spacing: 4.25px;
+    }
+
+    .main_description-text {
+        margin-bottom: 40px;
+    }
+
+    .main_description-text p {
+        font-size: 18px;
+    }
+
+    .main_animation img {
+        width: 382px;
+        height: 419px;
+    }
+
+    .main_description-btn {
+        width: 200px;
+        font-size: 16px;
+        padding: 16px 22px;
+    }
+
+
+}
+
+
+@media (max-width: 1024px) {
+
+    
+
+    .container {
+        max-width: 961px;
+    }
+
+}
