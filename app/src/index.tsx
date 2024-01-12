@@ -1,27 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './css/style.css';
-import Header from './Header/Header';
-import Milukov from './Milukov/Milukov';
 import reportWebVitals from './reportWebVitals';
-import Main from './Main/Main';
-import Directions from './Directions/Directions';
-import News from './News/News';
-import School from './School/School';
-import Footer from './Footer/Footer';
+import App from './App';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Header />
-    <Main/>
-    <Milukov/>
-    <Directions/>
-    <News/>
-    <School/>
-    <Footer/>
+    <App/>
   </React.StrictMode>
 );
 
