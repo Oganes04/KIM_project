@@ -1,0 +1,23 @@
+/*--------------------------- Header ------------------------*/
+
+.header {
+    padding: 50px 0 0;
+    font-size: 16px;
+    opacity: .8;
+    letter-spacing: 0px;
+  }
+  
+  .nav_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .nav_wrapper a {
+    color: var(--main-text-color);
+    text-decoration: none;
+  }
+  
+  .nav_burger {
+    display: none;
+  }

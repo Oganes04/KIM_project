@@ -1,6 +1,7 @@
 import React, { FC, useState, useEffect } from 'react';
 
-import '../App.css';
+
+import './Header.css'
 
 
 const Header: FC = () => {

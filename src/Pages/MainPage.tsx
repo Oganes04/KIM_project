@@ -1,12 +1,12 @@
 import React, { FC } from 'react';
 
-import Header from '../Components/Header';
-import Main from '../Components/Main';
-import Milukov from '../Components/Milukov';
-import Directions from '../Components/Directions'
+import Header from '../Components/Header/Header';
+import Main from '../Components/Main/Main';
+import Milukov from '../Components/Milukov/Milukov';
+import Directions from '../Components/Directions/Directions'
 import News from '../Components/News'
 import School from '../Components/School'
-import Footer from '../Components/Footer'
+import Footer from '../Components/Footer/Footer'
 import '../App.css';
 
 
@@ -15,7 +15,7 @@ const MainPage: FC = () => {
 
     return (
         <div>
-            <Header />
+            <Header/>
             <Main />
             <Milukov />
             <Directions />

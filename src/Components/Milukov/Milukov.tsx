@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import '../App.css';
+import './Milukov.css';
 
 
 const Milukov: FC = () => {
