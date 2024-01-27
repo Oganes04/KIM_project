@@ -8,6 +8,7 @@ import News from '../Components/News/News'
 import School from '../Components/School/School'
 import Footer from '../Components/Footer/Footer'
 import '../App.css';
+import './MainPage.css';
 
 
 const MainPage: FC = () => {
