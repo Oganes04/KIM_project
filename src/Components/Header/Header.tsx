@@ -1,6 +1,7 @@
 import React, { FC, useState, useEffect } from 'react';
+import ScrollArrow from '../ScrollArrow/ScrollArrow'
 
-import '../App.css';
+import './Header.css'
 
 
 const Header: FC = () => {
@@ -20,7 +21,7 @@ const Header: FC = () => {
  
 
     return (
-
+		<>
         <header className="header">
 		    <div className="container">
 			    <nav className={`nav ${isOpen ? 'open' : ''}`}> {/* open  */}
@@ -47,6 +48,7 @@ const Header: FC = () => {
 			    </nav>
 		    </div>
 	    </header>
+		<ScrollArrow /></>
     );
   }
   

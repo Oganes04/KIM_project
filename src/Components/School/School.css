@@ -1,0 +1,28 @@
+/*--------------------------- School ------------------------*/
+
+.school {
+  margin-top: 300px;
+}
+
+.school_wrapper {
+  max-width: 1282px;
+}
+
+.school_header {
+  text-align: left;
+}
+
+.school_header h2 {
+  font-size: var(--section-header-font-size);
+}
+
+.school_text {
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: 0.75px;
+  margin-top: 74px;
+}
+
+.school_button {
+  margin-top: 74px;
+}

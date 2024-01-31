@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import '../App.css';
+import './Directions.css';
 
 
 const Directions: FC = () => {
