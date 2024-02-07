@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 
-import Header from '../Components/Header/Header';
+
 import Main from '../Components/Main/Main';
 import Milukov from '../Components/Milukov/Milukov';
 import Directions from '../Components/Directions/Directions'
@@ -16,7 +16,7 @@ const MainPage: FC = () => {
 
     return (
         <div>
-            <Header/>
+
             <Main />
             <Milukov />
             <Directions />

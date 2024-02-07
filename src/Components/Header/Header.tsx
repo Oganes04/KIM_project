@@ -1,6 +1,6 @@
 import React, { FC, useState, useEffect } from 'react';
 import ScrollArrow from '../ScrollArrow/ScrollArrow'
-
+import { Link } from 'react-router-dom';
 import './Header.css'
 
 
@@ -26,14 +26,14 @@ const Header: FC = () => {
 		    <div className="container">
 			    <nav className={`nav ${isOpen ? 'open' : ''}`}> {/* open  */}
 				    <div className={`nav_wrapper ${isOpen ? 'open' : ''}`}>
-					    <a href="#" className="nav_item">Главная</a>
-        			    <a href="#" className="nav_item">Расписание</a>
-        			    <a href="#" className="nav_item">Мероприятия</a>
-        			    <a href="#" className="nav_item">Сотрудничество</a>
-        			    <a href="#" className="nav_item">Тестирующая система</a>
-        			    <a href="#" className="nav_item">Новости</a>
-        			    <a href="#" className="nav_item">Кафедра</a>
-        			    <a href="#" className="nav_item">Студентам</a>
+						<Link to="/" className="nav_item">Главная</Link>
+						<Link to="/schedule" className="nav_item">Расписание</Link>
+						<Link to="/events" className="nav_item">Мероприятия</Link>
+						<Link to="/cooperation" className="nav_item">Сотрудничество</Link>
+						<Link to="/testing-system" className="nav_item">Тестирующая система</Link>
+						<Link to="/news" className="nav_item">Новости</Link>
+						<Link to="/department" className="nav_item">Кафедра</Link>
+						<Link to="/students" className="nav_item">Студентам</Link>
 				    </div>
 			    </nav>
 
