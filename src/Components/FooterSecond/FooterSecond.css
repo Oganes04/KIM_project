@@ -1,8 +1,8 @@
-.footer {
+.footer-second{
     width: 100%;
     padding-bottom: 50px;
     box-sizing: border-box;
-
+    margin-top: 200px;
     z-index: 3;
 }
 
@@ -11,7 +11,7 @@
     flex-direction: column;
 }
 
-.footer .wrapper {
+.footer-second .wrapper {
     display: flex;
     justify-content: space-between;
 }
@@ -84,7 +84,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .footer .wrapper {
+    .footer-second .wrapper {
         flex-direction: column;
     }
 
