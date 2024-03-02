@@ -16,7 +16,7 @@ const News: FC = () => {
             ListLatestNews.push(<NewsListItem title={response[i].title} 
                                               article={response[i].article}
                                               author={response[i].author}
-                                              timeStamp={response[i].timestamp}
+                                              timeStamp={response[i].timestamp.split(" ")[0]}
                                 />)
           }
           SetLatestNews(ListLatestNews);
